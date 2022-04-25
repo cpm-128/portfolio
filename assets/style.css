@@ -1,0 +1,319 @@
+/* remove browser default styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* branding */
+:root {
+    --primary-color: rgb(32,85,107);
+    --primary-color-transp: rgba(32,85,107,0.9);
+    --secondary-color: rgb(195,193,186);
+    --black: #000;
+    --white: #ffffff;
+    --accent-color: rgb(178,199,198);
+    --heading-font: "Playfair Display", Helvetica, serif;
+    --paragraph-font: Quicksand, Arial, serif;
+
+}
+
+body {
+    font-family: var(--paragraph-font);
+}
+
+header {
+    background-image: url("./images/bg.png");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 80%;
+    padding: 20px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    position: -webkit-stick;
+    /*the standard should ALWAYS be after any vendor prefixes*/
+    position: sticky;
+    top: 0;
+}
+
+/* pseudo to change header to color bg on scroll? */
+
+h1 {
+    color: var(--white);
+    text-shadow: 3px 1px 10px rgba(0, 0, 0, 0.8)
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+}
+
+header a {
+    text-decoration: none;
+    color: var(--white);
+    padding: 4px;
+    margin: 3px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+header nav a:hover {
+    background-color: var(--primary-color-transp);
+    border-radius: 4px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.hero {
+    background-image: url("./images/bg.png");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 80%;
+    padding: 200px 50px 200px 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: flex-end;
+    /*WHY DON'T H2 STAY TO THE RIGHT ???????? esp on desktop*/
+}
+
+section {
+    padding: 60px;
+    /* border: 1px red solid; */
+}
+
+h2 {
+    color: var(--white);
+    font-size: 32px;
+    text-shadow: 5px 5px 10px var(--primary-color-transp);
+}
+
+h2 span {
+    background-color: var(--primary-color-transp);
+    font-size: 24px;
+    font-weight: lighter;
+    border-radius: 4px;
+    padding: 0 2px;
+}
+
+.section-title h3 {
+    color: var(--primary-color);
+    text-transform: uppercase;
+    font-weight:lighter;
+    font-size: 24px;
+    border-bottom: 1px solid var(--primary-color);
+    padding-left: 5px;
+    padding-bottom: 5px;
+}
+
+.section-content {
+    padding: 5px 20px;
+}
+
+.flex-row {
+    padding:5px;
+}
+
+#work {
+    background-color: var(--secondary-color);
+}
+
+.highlighted-work {
+    width: 100%;
+    padding: 20px;
+    padding-top: 60px;
+    padding-left: 0;
+    background-image: url("./images/run-buddy.png");
+    background-size: 100%;
+    background-repeat: round;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    margin: 20px 0px;
+    border-radius: 4px;
+}
+
+.work-label h4 {
+    text-transform: uppercase;
+    color: var(--secondary-color);
+    font-style: normal;
+    font-style: oblique;
+    font-weight: lighter;
+    text-shadow: 0 0 5px var(--black);
+    font-size: 12px;
+}
+
+.work-label .work-title {
+    line-height: 2;
+    font-weight: bold;
+    font-size: 18px;
+    color: var(--white);
+}
+
+.work-label p {
+    color: var(--white);
+    font-size: 12px;
+}
+
+.work-description {
+    line-height: 1.5;
+    font-size: 12px;
+    /* display: none; */
+    color: var(--white);
+}
+
+.work-label {
+    background-color: var(--primary-color-transp);
+    width: 65%;
+    padding: 15px 5px 5px 15px;
+    border-radius: 0 4px 4px 0;
+    height: 160px;
+}
+
+/* .work-label:hover .work-description {
+    display: block;
+} */
+
+.work-card {
+    background-image: url("./images/placeholder.png");
+    background-size: 100%;
+    background-repeat: round;
+    width: 100%;
+    padding: 20px;
+    padding-left: 0;
+    padding-top: 60x;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    margin: 20px 0px;
+    height: 200px;
+    border-radius: 4px;
+}
+
+#portfolio {
+    background-image: url("./images/portfolio-img.png")
+}
+
+.contact-info a {
+    text-decoration: none;
+    color: var(--black);
+}
+
+/*in works, the description only shows on the hover*/
+
+footer {
+    padding: 20px 30px;
+    background-color: var(--primary-color);
+    color: var(--white);
+    line-height: 1.5;
+
+}
+
+footer h5 {
+    font-size: 18px;
+}
+
+footer span {
+    color: var(--secondary-color);
+}
+
+footer p {
+    color: var(--white);
+    font-size: 14px;
+}
+
+footer p a {
+    text-decoration: none;
+    color: var(--white);
+    padding: 3px;
+}
+
+footer p a:hover {
+    background-color: var(--secondary-color);
+    border-radius: 4px;
+}
+
+.social-icons {
+    display: flex;
+}
+
+.social-icons img {
+    padding: 3px;
+    height: 35px;
+    margin: 5px;
+}
+
+.social-icons img:hover {
+    background-color: var(--secondary-color);
+    border-radius: 50px;
+}
+
+/* MEDIA QUERY FOR SMALL DESKTOPS AND LARGER */
+    @media screen and (min-width: 980px) {
+        
+        h1 {
+            font-size: 48px;
+        }
+
+        .hero {
+            padding-bottom: 400px;
+        }
+        
+        header a {
+            padding-right: 100px;
+            font-size: 1.5vw;
+        }
+
+        /*FLEX PARENT*/
+        .flex-row {
+            /* background-color: green; */
+            padding: 5px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        /*FLEX CHILD*/
+        .section-title {
+            /* border: 5px solid purple; */
+            width: 30%;
+            text-align: center;
+            margin: 1%;
+            margin-right: 0;
+            /* border-right: 3px solid var(--white); */
+            border-right: 2px solid var(--primary-color);
+
+        }
+
+        /*FLEX CHILD*/
+        .section-content {
+            /* border: 5px solid aqua; */
+            width: 60%;
+            margin: 1%;
+            margin-left: 0;
+            padding: 5px 40px;
+        }
+
+        .section-title h3 {
+            border-bottom: none;
+        }
+
+        /*FLEX PARENT*/
+        .all-work-cards {
+            padding: 5px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            /* border: 1px solid orange; */
+            size: 485px;
+        }
+
+        /*FLEX CHILD*/
+        .work-card {
+            margin: 1%;
+            /* border: 1px solid pink; */
+            width: 20rem;
+            flex-grow: inherit;
+        }
+
+    }
