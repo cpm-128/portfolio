@@ -26,12 +26,13 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 ## Deployment
 
-- URL:
+- URL: https://cpm-128.github.io/portfolio/
 
 - Screenshot:
     - Desktop
-
+        ![portfolio_desktop](https://user-images.githubusercontent.com/101371032/165010051-fa339736-6c57-48c0-8f54-8811e6c5e7f9.png)
     - Mobile
-
+       ![portfolio_mobile](https://user-images.githubusercontent.com/101371032/165010121-6208a81d-3a54-4c84-b1b3-6fd92cd81a11.png)
     - NOTE: in screenshots, the header is not captured correctly due to screen scrolling with the camera extension. See actual header/hero image match-up here:
-    
+        <img width="1440" alt="portfolio_header-hero" src="https://user-images.githubusercontent.com/101371032/165010178-dc82b414-ac8c-4b71-a190-d5ed211e8949.png">
+
