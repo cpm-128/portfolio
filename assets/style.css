@@ -202,6 +202,10 @@ h2 span {
     background-image: url("./images/scratch.png")
 }
 
+#investment-portfolio-dashboard {
+    background-image: url("./images/investment-portfolio-dashboard.png");
+}
+
 .contact-info a {
     text-decoration: none;
     color: var(--black);
