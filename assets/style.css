@@ -127,7 +127,7 @@ h2 span {
     padding: 20px;
     padding-top: 60px;
     padding-left: 0;
-    background-image: url("./images/local-music-scene.png");
+    background-image: url("./images/works/local-music-scene.png");
     background-size: 100%;
     background-repeat: round;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
@@ -191,23 +191,23 @@ h2 span {
 }
 
 #portfolio {
-    background-image: url("./images/portfolio-img.png")
+    background-image: url("./images/works/portfolio-img.png")
 }
 
 #run-buddy {
-    background-image: url("./images/run-buddy.png")
+    background-image: url("./images/works/run-buddy.png")
 }
 
 #scratch {
-    background-image: url("./images/scratch.png")
+    background-image: url("./images/works/scratch.png")
 }
 
 #investment-portfolio-dashboard {
-    background-image: url("./images/investment-portfolio-dashboard.png");
+    background-image: url("./images/works/investment-portfolio-dashboard.png");
 }
 
 #weather-dashboard {
-    background-image: url("./images/weather-dahsboard.png");
+    background-image: url("./images/works/weather-dahsboard.png");
 }
 
 .contact-info a {
