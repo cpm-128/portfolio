@@ -206,6 +206,10 @@ h2 span {
     background-image: url("./images/investment-portfolio-dashboard.png");
 }
 
+#weather-dashboard {
+    background-image: url("./images/weather-dahsboard.png");
+}
+
 .contact-info a {
     text-decoration: none;
     color: var(--black);
