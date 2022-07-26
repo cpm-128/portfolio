@@ -210,6 +210,26 @@ h2 span {
     background-image: url("./images/works/weather-dahsboard.png");
 }
 
+#zoo-keepr {
+    background-image: url("./images/works/zoo-keepr.png");
+}
+
+#git-it-done {
+    background-image: url("./images/works/git-it-done.png");
+}
+
+#work-day-scheduler {
+    background-image: url("./images/works/work-day-scheduler.png");
+}
+
+#task-manager {
+    background-image: url("./images/works/task-manager.png");
+}
+
+#password-generator {
+    background-image: url("./images/works/password-generator.png");
+}
+
 .contact-info a {
     text-decoration: none;
     color: var(--black);
