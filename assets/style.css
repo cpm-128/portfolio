@@ -127,7 +127,7 @@ h2 span {
     padding: 20px;
     padding-top: 60px;
     padding-left: 0;
-    background-image: url("./images/run-buddy.png");
+    background-image: url("./images/local-music-scene.png");
     background-size: 100%;
     background-repeat: round;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
@@ -194,8 +194,8 @@ h2 span {
     background-image: url("./images/portfolio-img.png")
 }
 
-#robot-gladiators {
-    background-image: url("./images/robot-gladiators.png")
+#run-buddy {
+    background-image: url("./images/run-buddy.png")
 }
 
 #scratch {
