@@ -166,10 +166,10 @@ h2 span {
 
 .work-label {
     background-color: var(--primary-color-transp);
-    width: 65%;
+    width: 100%;
     padding: 15px 5px 5px 15px;
     border-radius: 0 4px 4px 0;
-    height: 160px;
+    height: 210px;
 }
 
 /* .work-label:hover .work-description {
@@ -186,7 +186,7 @@ h2 span {
     padding-top: 60x;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
     margin: 20px 0px;
-    height: 200px;
+    height: 250px;
     border-radius: 4px;
 }
 
@@ -294,7 +294,7 @@ footer p a:hover {
 
 /* MEDIA QUERY FOR SMALL DESKTOPS AND LARGER */
     @media screen and (min-width: 980px) {
-        
+
         h1 {
             font-size: 48px;
         }
@@ -302,7 +302,7 @@ footer p a:hover {
         .hero {
             padding-bottom: 400px;
         }
-        
+
         header a {
             padding-right: 100px;
             font-size: 1.5vw;
@@ -358,6 +358,12 @@ footer p a:hover {
             /* border: 1px solid pink; */
             width: 20rem;
             flex-grow: inherit;
+            height: 200px;
+        }
+
+        .work-label {
+            width: 65%;
+            height: 160px;
         }
 
     }
